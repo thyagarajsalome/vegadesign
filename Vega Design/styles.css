@@ -17,9 +17,8 @@ body {
  
 /* Navigation Bar */
  .navbar ul {
- 
-list-style-type: none;
-background-color: rgb(218, 98, 13);
+ list-style-type: none;
+background-color:  rgb(232, 112, 33);
 padding: 10px;
 margin: 0px;
 
@@ -31,7 +30,8 @@ margin: 0px;
      
 }
 .navbar a:hover{
-  background-color:  rgb(72, 73, 74);
+  border-radius: 5px;
+  background-color:  rgba(78, 82, 125, 0.402);
  
 }
 .navbar img{
