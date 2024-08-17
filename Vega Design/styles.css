@@ -8,20 +8,18 @@
   margin: 0;
   padding: 0;
   font-family: cormorant;
- 
-}
+ }
 
 body {
    background: #ffffff; 
-   
-  }
+     }
 
  
 /* Navigation Bar */
  .navbar ul {
  
 list-style-type: none;
-background-color: rgb(23, 143, 222);
+background-color: rgb(81, 81, 89);
 padding: 10px;
 margin: 0px;
 
@@ -111,7 +109,7 @@ margin: 0px;
     padding: 0px;
     width: 90px;
     float: right;
-    height: 57.5vh;
+    height: 59vh;
         
   }
 
