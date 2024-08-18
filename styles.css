@@ -118,9 +118,7 @@ margin: 0px;
                     
   }
  
-
  }
-
 
 /* Grid Container */
 .grid-container {
@@ -283,15 +281,7 @@ tr:hover {
  
 }
 
-.contact-btn {
-  background-color:   rgb(232, 112, 33);
-  border-radius: 5px;
-  color: #fff;
-  display: inline-block;
-  padding: 10px 20px;
-  text-decoration: none;
-  margin-top: 15px;
-}
+
 
 footer {
   background-color: #333;
