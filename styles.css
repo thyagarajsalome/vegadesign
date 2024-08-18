@@ -107,9 +107,9 @@ margin: 0px;
 
   .navbar ul{
     padding: 0px;
-    width: 90px;
+    width: 80px;
     float: right;
-    height: 58 vh;
+    /* height: 58 vh; */
         
   }
 
@@ -316,12 +316,12 @@ footer {
 
 /* about */
 .about{
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
   line-height: 1.5;
 }
 .about h2 {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .about h3{
@@ -586,11 +586,11 @@ color: rgb(110, 110, 110);
 
 .footer p{
   margin-top: -5px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
  
 }
 .contact-list{
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .footer_2 li  {
