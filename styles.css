@@ -1,6 +1,5 @@
 /* General Styles */
 
-
 *{
   
   box-sizing: border-box;
@@ -11,6 +10,7 @@
 
 body {
    background: #ffffff; 
+  
      }
 
  
@@ -37,46 +37,7 @@ margin: 0px;
   margin-left: 10px;
   
 }
-/* Hero */
-.hero {
-  background-image: url('./img/Hero01.webp' ); /* Replace 'hero-image.jpg' with your image file */
-  background-size: cover;
-  background-position: center;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.hero-content {
-  max-width: 500px;
-  background-color: #f4f4f4af;
-  border-radius: 5px;
-  padding: 20px;
-}
-
-.hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  color: rgb(98, 98, 98);
-}
-
-.hero-content p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-  color: rgb(98, 98, 98);
-}
-
-.btn {
-  display: inline-block;
-  background-color:  rgb(23, 143, 222);
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
 
 .btn:hover {
   background-color: #555;
@@ -98,11 +59,7 @@ margin: 0px;
 
 margin: 0px;
   }
-  .hero-content h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color:  rgb(98, 98, 98);
-  }
+ 
 
   .navbar ul{
     padding: 0px;
@@ -159,20 +116,8 @@ margin: 0px;
   }
 }
 
-/* Gallery */
-.gallery {
-  display: inline-block;
-  border: 1px solid gray;
-  margin: 5px;
-  width: 100%;
-}
 
-/* Landing Page */
-.header, p{
-  display: flex;
-  
- 
- }
+
 
 .services {
   display: flex;
@@ -194,7 +139,7 @@ margin: 0px;
     
 }
 
-.service-card, h3, p{
+.service-card, h3{
   margin-top: 10px;
 }
 /* table */
@@ -274,17 +219,8 @@ tr:hover {
   }
 }
 
-/* contact */
-.contact {
-  text-align: center;
- margin-top: 20px;
- 
-}
-
-
-
 footer {
-  background-color: #333;
+  background-color: #3b5f83;
   color: #fff;
   margin: 0 auto;
   text-align: center;
@@ -317,25 +253,7 @@ footer {
   margin-top: 10px;
 }
 
-/* Gallery */
-.gallery {
-  width: 250px;
-  margin: 10px;
-  overflow: hidden;
-  position: relative;
-  border: 1px solid #ddd;
-  transition: transform 0.3s;
-}
 
-.gallery:hover {
-  transform: scale(1.05);
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 
 .description {
   text-align: center;
@@ -509,7 +427,6 @@ color: rgb(110, 110, 110);
   }
 }
 
-
 .main-contact ul li{
   margin-left: 20px;
   list-style-type: none;
@@ -523,9 +440,6 @@ color: rgb(110, 110, 110);
 
 }
 
-
-
-
 .footer p{
   margin-top: -5px;
   margin-bottom: 15px;
@@ -534,6 +448,7 @@ color: rgb(110, 110, 110);
 .contact-list{
   margin-top: 10px;
 }
+
 
 .footer_2 li  {
   padding: 20px;
@@ -546,10 +461,13 @@ color: rgb(110, 110, 110);
   flex-direction: row;
   justify-content: center;
   margin-bottom: 5px;
-  
-      }
+
+        }
+        
       .footer_2 {
         margin-top: -25px;
       }
      
-  
+  .contanct-sec {
+    margin: 20px 20px 20px 20px;
+  }
