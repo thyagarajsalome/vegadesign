@@ -170,7 +170,7 @@ margin: 0px;
 /* Landing Page */
 .header, p{
   display: flex;
-  justify-content: center;
+  
  
  }
 
@@ -496,7 +496,7 @@ color: rgb(110, 110, 110);
     float: left;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .gallery {
     width: 50%; /* Show 2 items per row */
     float: left;
@@ -523,54 +523,7 @@ color: rgb(110, 110, 110);
 
 }
 
-/* social Media */
 
-.social-media-list {
-  display: flex;
-  justify-content: center;
-  list-style: none; /* Remove default bullet points */
-  margin: 0;
-    }
-    .social_media ul li{
-      list-style-type: none;
-      font-size: 24px;
-      padding: 20px;
-      
-    }
-
-.social-icon {
-  display: inline-block; /* Display icons side-by-side */
-  margin: 0 10px; /* Add spacing between icons */
-}
-
-.social-icon a {
-  color: inherit; /* Inherit text color from parent element */
-  text-decoration: none; /* Remove link underline */
-}
-
-/* Customize icon colors using their specific classes */
-.youtube i {
-  color: #c4302b; /* YouTube red */
-}
-
-.linkedin i {
-  color: #0077b5; /* LinkedIn blue */
-}
-.instagram i {
-  color: #bc2a8d; /* Instagram pink */
-}
-
-.pinterest i {
-  color: #c8232c; /* Pinterest red */
-}
-
-/* Add media queries for responsive adjustments (optional) */
-@media (max-width: 768px) {
-  .social-icon {
-    margin: 5px; /* Adjust spacing for smaller screens */
-   
-  }
-}
 
 
 .footer p{
