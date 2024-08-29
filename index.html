@@ -1,154 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vega Design</title>
     <link rel="stylesheet" href="styles.css" />
-       <title>Vega Design</title>
-        </head>
+  </head>
   <body>
     <header>
       <nav class="navbar">
-        <img src="./img/Brand_logo.png" width="200" alt="" />
-        <ul class="nav-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="#about-section">About</a></li>
-          <li><a href="#section-services">Services</a></li>
-          <li><a href="#contact-section">Contact</a></li>
-          <li><a href="./policy.html">Policy</a></li>
-          <li><a href="./faq.html">FAQ</a></li>
-        </ul>
+        <div class="container">
+          <img
+            src="./img/Brand_logo.png"
+            width="150"
+            height="32"
+            alt="Vega Design Logo"
+            class="logo"
+          />
+          <button class="navbar-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#policy">Policy</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
 
-    <!-- Plan Comparison Chart -->
-    <div class="comparison-table">
-      <!-- Your existing table code goes here -->
-    </div>
+    <main>
+      <section id="home" class="hero">
+        <div class="container">
+          <h1>Welcome to Vega Design</h1>
+          <p>
+            Your Premier destination for 3D Architectural & Interior Design.
+          </p>
+        </div>
+      </section>
 
-       <!-- about page -->
+      <section id="about" class="about">
+        <div class="container">
+          <h2 id="about">About</h2>
+          <p>
+            We are a team of freelance professionals specializing in Interior
+            and 3D Design. Our expertise covers a comprehensive range of
+            Architectural and Interior 3D Design and Visualization services,
+            tailored for both small-scale and large-scale projects.
+          </p>
+        </div>
+      </section>
 
-    <div class="about">
-      <h2 id="about-section">About</h2>
-      <p>
-        Welcome to Vega Design, your Premier destination for 3D Architectural &
-        Interior Design in Bangalore. We are a team of freelance professionals
-        specializing in Interior and 3D Design.
-      </p>
-      <h2>What Sets Us Apart:</h2>
-
-      <h3>Expertise:</h3>
-      <p>
-        Our skilled team brings years of experience to create Personalized
-        designs for every client. Comprehensive Services: From kitchens and
-        bedrooms to furniture and Exterior Design to High-End Apartments , we
-        cover it all. Personalized Approach: We work closely with you to
-        understand your unique style and needs. 3D Rendering: Experience your
-        design in detail before it comes to life with our advanced 3D rendering.
-      </p>
-
-      <h2>Why Choose Us:</h2>
-      <h3>Flexibility:</h3>
-      <p>
-        As freelancers in Bangalore, we adapt our services to your specific
-        requirements. Passion for Design: Design is our passion, and we take
-        pride in enhancing your living spaces. Client Satisfaction: Your
-        satisfaction is our priority. Let us bring your vision to reality.
-        Contact Vega Design today.
-      </p>
-    </div>
-
-    <!-- Testing icons-end -->
-
-    <section class="services">
-   
-      <div class="service-card">
-        <img src="./img/1_Archi.webp" alt="architectrual design" />
-
-        <h3>3D Architectural Design</h3>
-        <p>
-          3D architectural design involves creating digital models of buildings
-          and structures using specialized software.
-        </p>
-      </div>
-      <div class="service-card">
-        <img src="./img/2_inte.webp" alt="Interior Design" />
-
-        <h3>Interior Design</h3>
-        <p>
-          Elevate your living and working spaces with our creative and
-          personalized interior designs.
-        </p>
-      </div>
-      <div class="service-card">
-        <img src="./img/3_3dviz.webp" alt="3d visulization" />
-
-        <h3>3D Visualization</h3>
-        <p>
-          3D visualization, also known as 3D rendering, involves using software
-          to create realistic digital representations.
-        </p>
+      <section id="services" class="services">
+        <div class="container">
+          <h2>Our Services</h2>
+          <p>
+            We offer a comprehensive range of Architectural and Interior 3D
+            Design and Visualization services, tailored to meet the needs of
+            both small-scale and large-scale projects. Whether you're an
+            individual homeowner or a large corporation, we provide customized
+            design solutions that bring your vision to life in 3D.
+          </p>
+          <div class="services-grid">
+            <div class="service-item">
+              <h3>Residential House and Commercial 3D Rendering</h3>
+              <p>
+                High-quality 3D rendering and visualization for both residential
+                houses and commercial buildings.
+              </p>
+            </div>
+            <div class="service-item">
+              <h3>Exterior Design & Frontside Elevation</h3>
+              <p>
+                Expert exterior design services, including detailed frontside
+                elevation designs.
+              </p>
+            </div>
+            <div class="service-item">
+              <h3>Interior Design</h3>
+              <p>
+                Professional 3D design and visualization for living rooms,
+                bedrooms, bathrooms, and kitchens.
+              </p>
+            </div>
+            <div class="service-item">
+              <h3>Villas, Apartments, & High-Rise Buildings</h3>
+              <p>
+                Customized 3D design and visualization for villas, apartments,
+                and high-rise buildings.
+              </p>
+            </div>
+            <div class="service-item">
+              <h3>3D Modeling & Rendering</h3>
+              <p>
+                Comprehensive 3D modeling and rendering services for all
+                architectural and interior design projects.
+              </p>
+            </div>
+            <div class="service-item">
+              <h3>Estimation Calculators</h3>
+              <p>
+                Tool Websites Hub is dedicated to providing accurate and helpful
+                tools for house construction planning and budget estimation in
+                India.
+              </p>
+              <a href="https://toolwebsite.in/" target="_blank">
+                <button class="click-btn">Click here</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery -->
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img
+                src="./img/1_Archi.webp"
+                alt="Residential House 3D Rendering"
+              />
+            </div>
+            <div class="gallery-item">
+              <img src="./img/2_inte.webp" alt="Commercial Building Exterior" />
+            </div>
+            <div class="gallery-item">
+              <img src="./img/3_3dviz.webp" alt="Modern Living Room Interior" />
+            </div>
+            <div class="gallery-item">
+              <img src="./img/4.webp" alt="Luxury Villa Design" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h3>Contact Us</h3>
+        <p>Phone: +91-9113989237 or +91-8892833939</p>
+        <p>Email: email2vegadesign@gmail.com</p>
+        <p>Location: Bengaluru, Karnataka, India</p>
       </div>
     </section>
-
-    <!-- 3d table container -->
-    <div class="comparison-table">
-      <table>
-        <thead>
-          <tr>
-            <th>3D Service Features</th>
-            <th class="basic">Basic</th>
-            <th class="standard">Standard</th>
-            <th class="premium">Premium</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>3D Model</td>
-            <td class="basic">✔ Low-poly</td>
-            <td class="standard">✔ Medium-poly</td>
-            <td class="premium">✔ High-poly</td>
-          </tr>
-
-          <tr>
-            <td>Lighting and Texturing</td>
-            <td class="basic">✔ Basic</td>
-            <td class="standard">✔ Normal</td>
-            <td class="premium">✔ Advanced</td>
-          </tr>
-
-          <tr>
-            <td>Render Quality</td>
-            <td class="basic">✔Normal</td>
-            <td class="standard">✔ Medium</td>
-            <td class="premium">✔ Photo-realistic</td>
-          </tr>
-          <tr>
-            <td>Image Size</td>
-            <td class="basic">✔900px</td>
-            <td class="standard">✔1200px</td>
-            <td class="premium">✔1800px</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="services">
+      <h3 id="policy">Policy</h3>
+      <ul>
+        <li>
+          Information Collection: Vega Design collects the information you
+          provide, such as your name, contact details, and project requirements.
+          Sensitive personal data is not collected.
+        </li>
+        <li>
+          Use of Information: Your information is used solely for communication
+          and project purposes. We do not share or sell your data to third
+          parties.
+        </li>
+        <li>
+          Security: We take reasonable measures to protect your data, but no
+          online transmission can be entirely secure.
+        </li>
+        <li>
+          Third-Party Links: We are not responsible for the privacy practices of
+          linked third-party websites. Review their policies before sharing any
+          personal information.
+        </li>
+      </ul>
+      <h3>Disclaimer</h3>
+      <ul>
+        <li>
+          Service Limitations: We provide 3D Architectural and Interior Design
+          services only. Clients must obtain any necessary construction or
+          structural approvals independently.
+        </li>
+        <li>
+          Project Turnaround: Timelines vary by project complexity. Estimated
+          completion times are discussed during project planning.
+        </li>
+        <li>
+          Recommendations: Clients should seek industry-standard approvals from
+          qualified professionals.
+        </li>
+      </ul>
+      <h3>Copyright Notice</h3>
+      <p>
+        All content created by Vega Design, including 3D renderings and
+        drawings, is copyrighted. Unauthorized use is prohibited without our
+        written consent.
+      </p>
+      <h3>Professional Freelancers Terms</h3>
+      <ul>
+        <li>
+          Individual Professionals: Vega Design is a network of independent
+          freelancers, each offering personalized services.
+        </li>
+        <li>
+          Project Collaboration: Freelancers provide direct communication and
+          tailored expertise for projects.
+        </li>
+        <li>
+          Negotiation: Rates and terms are negotiated directly with each
+          freelancer for transparency.
+        </li>
+        <li>
+          Ongoing Projects: Freelancers are available for both short- and
+          long-term collaborations. By working with Vega Design, you agree to
+          the Privacy Policy, Disclaimer, and Copyright Notice. These terms may
+          be updated, and significant changes will be communicated.
+        </li>
+        <h3>Payments:</h3>
+        <li>
+          Deposit: 50% upfront, non-refundable after confirmation. Balance: 50%
+          due in installments or upon completion. Methods: Bank transfer or
+          online payment; no cash.
+        </li>
+        <li>Communication: Use email only for professional correspondence.</li>
+      </ul>
+      <h3>Project Information:</h3>
+      <ul>
+        <li>
+          For large projects, clients must provide all necessary materials,
+          including CAD files, high-res photos, and detailed sketches. Delays or
+          impacts on deliverables may occur if information is insufficient.
+        </li>
+        <li>
+          Revisions: Limited revisions are included; extra revisions incur
+          additional charges. Requests must be in writing via email.
+        </li>
+      </ul>
     </div>
-    <!-- service -->
-   
-            
-    <!-- contact -->
-     <div class="contanct-sec">
-      <h3>Contact us</h3>
-      <p>+91-9113989237 or +91-8892833939</p>
-      <p>email2vegadesign@gmail.com | Bengaluru, Karnataka- India</p>
-     </div>
-   
-    </div>
-       
-    <!-- footer-2 -->
-       <footer class="footer">
-      <div class="footer-logo">
-        <img src="./img/Brand_logo.png" width="150" alt="" />
+    <footer>
+      <div class="container">
+        <img
+          src="./img/Brand_logo.png"
+          width="100"
+          height="21"
+          alt="Vega Design Logo"
+          class="logo"
+        />
+        <p>&copy; 2024 Vega Design. All rights reserved.</p>
       </div>
-      <p>&copy; 2024 Design Studio. All rights reserved.</p>
     </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
